@@ -438,7 +438,7 @@
                 }
                 
             }
-            @media (max-width:370px) {
+            @media (max-width:375px) {
 
 
                 #flex{
@@ -453,7 +453,6 @@
                 #flex1{
                     height: 170px;
                     width: 100%;
-                    padding: 10px;
                     box-sizing: border-box;
 
                 }
@@ -530,6 +529,11 @@
             }
 
             @media (max-width:1030px) {
+                #subcontainer{
+                    height: 130vh; 
+                    justify-content: center;   
+                    align-items: center;
+                }
 
                 .menu-container{
                     display: grid;
@@ -546,50 +550,77 @@
                     height: 250px;
                 }
             }
-            @media (max-width:468px) {
-                .container{
-                    height:max-content;
-                }
+            @media (max-width:470px) {
+              
                 .menu-container{
                     display: grid;
-                    text-align: center;
-                    grid-template-columns: repeat(1,200px);
-                    grid-template-rows: repeat(6,180px);
+                    grid-template-columns: repeat(1,150px);
+                    grid-template-rows: repeat(6,150px);
                 }
                 .menu-container .card .image{
-                    height: 190px;
+                    height: 150px;
                     width: 200px;
                     
                 }
                 .details{
-                    width: 190px;
-                    height: 200px;
+                    height: 150px;
+                    width: 200px;
+                    font-size: 10px;
+
+
                 }
+                #subcontainer{
+                    height: 110vh;    
+                }
+
                 
             }
-            @media (max-width:370px) {
+            @media (max-width:390px) {
+                #subcontainer{
+                    height: 130vh; 
+                    justify-content: center;   
+                    align-items: center;
+                }
                 #head4{
                     font-size: 20px;
                 }
          
                 .menu-container{
                     display: grid;
-                    text-align: center;
-                    grid-template-columns: repeat(1,200px);
-                    grid-template-rows: repeat(6,180px);
+                    grid-template-columns: repeat(1,150px);
+                    grid-template-rows: repeat(6,160px);
                 }
                 .menu-container .card .image{
-                    height: 180px;
+                    height: 160px;
                     width: 200px;
                     
                 }
                 .details{
+                    height: 160px;
                     width: 200px;
-                    height: 180px;
                     font-size: 10px;
                 }
-                .details i{
-                    font-size: 2px;
+            }
+            @media (max-width:375px) {
+                #subcontainer{
+                    height: 110vh;
+                }
+                .menu-container{
+                    display: grid;
+                    grid-template-columns: repeat(1,80px);
+                    grid-template-rows: repeat(6,100px);
+                    justify-content: center;
+                    margin-right: 100px;
+                }
+                .menu-container .card .image{
+                    height: 110px;
+                    width: 200px;
+                    
+                }
+                .details{
+                    height: 80px;
+                    width: 200px;
+                    font-size: 5px;
                 }
                 
             }
